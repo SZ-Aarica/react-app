@@ -1,0 +1,146 @@
+.weatherApp {
+  background-color: #20615b;
+  max-width: 700px;
+  font-family: "El Messiri", sans-serif;
+  font-size: 18px;
+  padding-left: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+img {
+  width: 100px;
+}
+
+form {
+  padding-top: 20px;
+  padding-left: 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+input {
+  background-color: #20615b;
+  border: 2px solid #dece9c;
+  padding: 10px;
+}
+::placeholder {
+  color: #dece9c;
+  opacity: 1;
+}
+
+.city-name {
+  border: 2px solid #dece9c;
+  padding: 10px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  background-color: #20615b;
+  transition: all 200ms ease-in-out;
+  color: #dece9c;
+}
+
+.city-name:hover {
+  background-color: #a21232;
+  color: #dece9c;
+  border: 2px solid #a21232;
+}
+.first {
+  font-size: 22px;
+  text-align: center;
+  margin-left: 28px;
+  margin-right: 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: #dece9c;
+  transition: all 200ms ease-in-out;
+  color: #a21232;
+}
+.first:hover {
+  background-color: #a21232;
+  color: #dece9c;
+}
+
+.second {
+  text-align: center;
+  margin-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #dece9c;
+  transition: all 200ms ease-in-out;
+  color: #a21232;
+}
+.second:hover {
+  background-color: #a21232;
+  color: #dece9c;
+}
+
+.next-days {
+  text-align: center;
+  color: #a21232;
+  list-style: none;
+  padding: 0px;
+  background-color: #dece9c;
+  transition: all 200ms ease-in-out;
+}
+.next-days:hover {
+  background-color: #a21232;
+  color: #dece9c;
+}
+
+.col-3 {
+  padding: 0px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+button {
+  padding: 9px;
+  border: none;
+  background-color: #dece9c;
+  transition: all 200ms ease-in-out;
+  color: #a21232;
+}
+button:hover {
+  background-color: #a21232;
+  color: #dece9c;
+}
+a {
+  font-size: 18px;
+  position: relative;
+  top: -3px;
+  color: #19aeef;
+  font-weight: 200;
+  text-decoration: none;
+  cursor: default;
+}
+
+a:hover {
+  color: #19aeef;
+  text-decoration: none;
+}
+
+.active:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.forcast-image {
+  width: 34px;
+}
+input::placeholder {
+  color: #dece9c;
+}
+.gitHubLink,
+footer {
+  display: inline;
+  color: #a21232;
+  font-family: "El Messiri", sans-serif;
+  font-size: 18px;
+  margin-left: 150px;
+}
+
+.gitHubLink:hover {
+  text-decoration: underline;
+  color: #a21232;
+  cursor: pointer;
+}
+.creator {
+  color: #20615b;
+  font-size: 19px;
+}
