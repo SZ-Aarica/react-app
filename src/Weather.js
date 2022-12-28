@@ -109,6 +109,7 @@ export default function Weather() {
           <a
             href="https://github.com/SZ-Aarica/Weather-App"
             target="_blank"
+            rel="noreferrer"
             className="gitHubLink"
           >
             Open Souce in GitHub
